@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HotelManagement</string>
+    <string name="hotel_management_system">Hotel Management System</string>
+    <string name="splash_icon">splash_icon</string>
 </resources>
