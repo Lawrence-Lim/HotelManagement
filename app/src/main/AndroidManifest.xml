@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HotelManagement">
-        <activity android:name=".Signup_Page"></activity>
+        <activity android:name=".UserProfilePage"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".homepage" />
         <activity android:name=".Login_Page" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Signup_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
