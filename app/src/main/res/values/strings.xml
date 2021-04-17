@@ -12,4 +12,24 @@
     <string name="log_in">Log In</string>
     <string name="full_name">Full Name</string>
     <string name="user_logo">user_logo</string>
+    <string name="selected_item">Selected item:</string>
+    <string name="i_ve_read_and_agree_the_term_of_use_amp_privacy_policy"><![CDATA[I\'ve read and agree the Term of Use & Privacy Policy]]></string>
+    <string name="first_name">First Name :</string>
+    <string name="last_name">Last Name :</string>
+    <string name="job_position">Job Position :</string>
+    <string name="email_address">Email Address :</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="ic_number">IC Number :</string>
+    <string name="date_of_birth">Date of Birth :</string>
+    <string name="home_address">Home Address :</string>
+    <string name="confirm_password">Confirm Password :</string>
+    <string name="register">Register</string>
+    <string name="staff_registration_form">Staff Registration Form</string>
+    <string name="Password">Password :</string>
+    <string-array name="Job">
+        <item>Staff</item>
+        <item>Manager</item>
+        <item>Receptionist</item>
+        <item>Cleaner</item>
+    </string-array>
 </resources>

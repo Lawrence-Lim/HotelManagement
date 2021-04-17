@@ -58,8 +58,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
         android:text="@string/username"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -107,7 +107,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="123dp"
+        android:layout_width="125dp"
         android:layout_height="60dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="128dp"
@@ -117,8 +117,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="124dp"
-        android:layout_height="59dp"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
         android:layout_marginStart="64dp"
         android:layout_marginBottom="1dp"
         android:text="@string/sign_up"
