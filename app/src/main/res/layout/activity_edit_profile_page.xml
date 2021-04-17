@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".EditProfilePage">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user"
+            android:contentDescription="@string/profile_pic" />
+
+        <TextView
+            android:id="@+id/lblEditUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/username"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:drawableStartCompat="@drawable/ic_user" />
+
+        <TextView
+            android:id="@+id/lblStaffTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/staff_id"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/ic_id"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblJobTitle" />
+
+        <TextView
+            android:id="@+id/lblEditBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/date_of_birth"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/ic_cake"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblEditPhone" />
+
+        <TextView
+            android:id="@+id/lblEditAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/home_address"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/ic_home"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblEditBirth" />
+
+        <TextView
+            android:id="@+id/lblEditPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/phone_number"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/ic_contact"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblEditEmail" />
+
+        <TextView
+            android:id="@+id/lblEditEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/email_address"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/ic_mail"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblStaffTitle" />
+
+        <TextView
+            android:id="@+id/lblJobTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/job_position"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:drawablePadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblEditUser"
+            app:drawableStartCompat="@drawable/ic_work" />
+
+        <EditText
+            android:id="@+id/txtEditUser"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:autofillHints=""
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/Username"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/lblEditUser"
+            app:layout_constraintStart_toEndOf="@+id/lblEditUser"
+            app:layout_constraintTop_toTopOf="@+id/lblEditUser" />
+
+        <EditText
+            android:id="@+id/txtEditAddress"
+            android:layout_width="204dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="20dp"
+            android:autofillHints=""
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/address"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/lblEditAddress"
+            app:layout_constraintStart_toEndOf="@+id/lblEditAddress"
+            app:layout_constraintTop_toTopOf="@+id/lblEditAddress" />
+
+        <EditText
+            android:id="@+id/txtEditPhone"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:autofillHints=""
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/Phone_number"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="phone"
+            app:layout_constraintBottom_toBottomOf="@+id/lblEditPhone"
+            app:layout_constraintStart_toEndOf="@+id/lblEditPhone"
+            app:layout_constraintTop_toTopOf="@+id/lblEditPhone" />
+
+        <EditText
+            android:id="@+id/txtEditEmail"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:autofillHints=""
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/Email_address"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="@+id/lblEditEmail"
+            app:layout_constraintStart_toEndOf="@+id/lblEditEmail"
+            app:layout_constraintTop_toTopOf="@+id/lblEditEmail" />
+
+        <EditText
+            android:id="@+id/txtEditBirth"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:autofillHints=""
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/Date_of_birth"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="date"
+            app:layout_constraintBottom_toBottomOf="@+id/lblEditBirth"
+            app:layout_constraintStart_toEndOf="@+id/lblEditBirth"
+            app:layout_constraintTop_toTopOf="@+id/lblEditBirth" />
+
+        <TextView
+            android:id="@+id/lblEditID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/fID"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lblStaffTitle"
+            app:layout_constraintStart_toEndOf="@+id/lblStaffTitle"
+            app:layout_constraintTop_toTopOf="@+id/lblStaffTitle" />
+
+        <TextView
+            android:id="@+id/lblEditJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/fJob"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lblJobTitle"
+            app:layout_constraintStart_toEndOf="@+id/lblJobTitle"
+            app:layout_constraintTop_toTopOf="@+id/lblJobTitle" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/cancel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEditAddress" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="65dp"
+            android:text="@string/save"
+            app:layout_constraintBottom_toBottomOf="@+id/btnCancel"
+            app:layout_constraintStart_toEndOf="@+id/btnCancel"
+            app:layout_constraintTop_toTopOf="@+id/btnCancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

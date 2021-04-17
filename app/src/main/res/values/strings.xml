@@ -46,6 +46,9 @@
     <string name="fBirth">--</string>
     <string name="fAddress">--</string>
     <string name="eye">eye</string>
+    <string name="fJob">--</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
     <string-array name="Job">
         <item>Staff</item>
         <item>Manager</item>

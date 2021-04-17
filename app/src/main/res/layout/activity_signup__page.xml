@@ -20,6 +20,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/date_of_birth"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblIC" />
 
@@ -31,6 +32,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/confirm_password"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblPass" />
 
@@ -42,6 +44,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/email_address"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblJob" />
 
@@ -66,6 +69,7 @@
             android:layout_marginTop="50dp"
             android:text="@string/first_name"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -77,6 +81,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/last_name"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblFirstName" />
 
@@ -88,6 +93,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/job_position"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblLastName" />
 
@@ -99,6 +105,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/phone_number"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblEmail" />
 
@@ -110,6 +117,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/Password"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblPhone" />
 
@@ -121,6 +129,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/ic_number"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblConPass" />
 
@@ -132,6 +141,7 @@
             android:layout_marginTop="60dp"
             android:text="@string/home_address"
             android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblBirth" />
 
@@ -302,11 +312,12 @@
 
         <CheckBox
             android:id="@+id/chkTerm"
-            android:layout_width="238dp"
+            android:layout_width="285dp"
             android:layout_height="36dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="20dp"
             android:text="@string/i_ve_read_and_agree_the_term_of_use_amp_privacy_policy"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtAddress" />
 
