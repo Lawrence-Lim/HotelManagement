@@ -30,4 +30,14 @@
         app:srcCompat="@drawable/splashicon"
         android:contentDescription="@string/splash_icon" />
 
+    <Button
+        android:id="@+id/btn_customerD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginBottom="273dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
