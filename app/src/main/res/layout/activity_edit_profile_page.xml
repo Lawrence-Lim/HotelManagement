@@ -122,23 +122,6 @@
             app:drawableStartCompat="@drawable/ic_work" />
 
         <EditText
-            android:id="@+id/txtEditUser"
-            android:layout_width="210dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:autofillHints=""
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:hint="@string/Username"
-            android:background="@drawable/custom_input"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/lblEditUser"
-            app:layout_constraintStart_toEndOf="@+id/lblEditUser"
-            app:layout_constraintTop_toTopOf="@+id/lblEditUser" />
-
-        <EditText
             android:id="@+id/txtEditAddress"
             android:layout_width="204dp"
             android:layout_height="85dp"
@@ -227,25 +210,27 @@
             app:layout_constraintStart_toEndOf="@+id/lblJobTitle"
             app:layout_constraintTop_toTopOf="@+id/lblJobTitle" />
 
-        <Button
-            android:id="@+id/btnCancel"
-            android:layout_width="125dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="30dp"
-            android:text="@string/cancel"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtEditAddress" />
+        <TextView
+            android:id="@+id/lblViewUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/fUser"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lblEditUser"
+            app:layout_constraintStart_toEndOf="@+id/lblEditUser"
+            app:layout_constraintTop_toTopOf="@+id/lblEditUser" />
 
         <Button
             android:id="@+id/btnSave"
             android:layout_width="125dp"
             android:layout_height="60dp"
-            android:layout_marginStart="65dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="30dp"
             android:text="@string/save"
-            app:layout_constraintBottom_toBottomOf="@+id/btnCancel"
-            app:layout_constraintStart_toEndOf="@+id/btnCancel"
-            app:layout_constraintTop_toTopOf="@+id/btnCancel" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEditAddress" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

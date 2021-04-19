@@ -13,8 +13,8 @@
         <activity android:name=".UserProfilePage" />
         <activity android:name=".MainActivity" />
         <activity android:name=".homepage" />
-        <activity android:name=".Login_Page" />
-        <activity android:name=".Signup_Page">
+        <activity android:name=".Signup_Page" />
+        <activity android:name=".Login_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

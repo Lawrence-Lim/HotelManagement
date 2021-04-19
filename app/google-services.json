@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "49386835785",
+    "firebase_url": "https://hotelmanagement-8d424-default-rtdb.firebaseio.com",
+    "project_id": "hotelmanagement-8d424",
+    "storage_bucket": "hotelmanagement-8d424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49386835785:android:d9573be945cba56f955498",
+        "android_client_info": {
+          "package_name": "com.example.hotelmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49386835785-h3v5qc7qmv1pn789eb906ife0lg93ejg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxhpvP6pmQz3oRPnF4V_tQFuBWYBVQvMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49386835785-h3v5qc7qmv1pn789eb906ife0lg93ejg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

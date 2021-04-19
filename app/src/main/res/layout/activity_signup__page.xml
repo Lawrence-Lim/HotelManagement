@@ -313,7 +313,7 @@
         <CheckBox
             android:id="@+id/chkTerm"
             android:layout_width="285dp"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="20dp"
             android:text="@string/i_ve_read_and_agree_the_term_of_use_amp_privacy_policy"
@@ -331,7 +331,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/chkTerm" />
 
-
+        <TextView
+            android:id="@+id/lblResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/spinnerResult"
+            android:textColor="#000000"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/spinner"
+            app:layout_constraintStart_toEndOf="@+id/spinner"
+            app:layout_constraintTop_toTopOf="@+id/spinner" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
