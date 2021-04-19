@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerDetails">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="413dp"
+        android:layout_height="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txt_no"
+        android:layout_width="123dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="41dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/txt_price"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="293dp"
+        android:text="Total"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="37dp"
+        android:text="Room Size"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="40dp"
+        android:text="Room No"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="41dp"
+        android:text="Price(RM)"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="34dp"
+        android:text="Check In"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="29dp"
+        android:text="Check Out"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_size"
+        android:layout_width="123dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="38dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/txt_no"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="123dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="44dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/txt_checkin"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_checkin"
+        android:layout_width="123dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="36dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/txt_checkout"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_checkout"
+        android:layout_width="123dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="29dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/txt_total"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_total"
+        android:layout_width="123dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="209dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginBottom="40dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="96dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginBottom="24dp"
+        android:text="Room Details"
+        app:layout_constraintBottom_toTopOf="@+id/txt_size"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
