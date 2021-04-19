@@ -28,13 +28,20 @@ class RoomAvailability : AppCompatActivity() {
         if (bundle != null) {
             val checkInDate: String = bundle.get(CHECK_IN_DATE).toString()
 
-        val btn_name = findViewById<Button>(R.id.btn_name)
-        btn_name.setOnClickListener{
+            val btn_name = findViewById<Button>(R.id.btn_name)
+            btn_name.setOnClickListener {
             val intent = Intent(this, RoomDetails::class.java)
             intent.putExtra(RoomDetails.REFERENCE_NAME, btn_name.text)
             startActivity(intent)
         }
-    }}
+    }
+        val btn_name2 = findViewById<Button>(R.id.btn_name2)
+        btn_name2.setOnClickListener{
+            val intent = Intent(this, Reserve::class.java)
+            intent.putExtra(RoomDetails.REFERENCE_NAME, btn_name2.text)
+            startActivity(intent)
+        }
+    }
 
 
 }

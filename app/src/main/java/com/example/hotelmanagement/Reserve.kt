@@ -1,5 +1,6 @@
 package com.example.hotelmanagement
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -22,6 +23,9 @@ class Reserve : AppCompatActivity() {
         val btn_insert = findViewById<Button>(R.id.btn_insert)
         btn_insert.setOnClickListener{
             sendData()
+            val intent = Intent(this, RoomAvailability::class.java)
+           /* intent.putExtra(RoomAvailability.btn_name2,"REFERENCE_NAME")*/
+            startActivity(intent)
         }
 
     }
@@ -35,6 +39,7 @@ class Reserve : AppCompatActivity() {
         var phone = et_phone.text.toString()
         var email = et_email.text.toString()
         val model = DatabaseModel(gender,ic,age,address,phone,email)
+
 
         //send data to database (update)
         reference.child(name!!).setValue(model)

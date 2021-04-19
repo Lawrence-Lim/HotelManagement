@@ -60,8 +60,8 @@ class Login_Page : AppCompatActivity() {
                 }
                 if(passExist){
                     showToast("Login Successful")
-                    val intent  = Intent(applicationContext, UserProfilePage::class.java)
-                    intent.putExtra("User", fuser)
+                    val intent  = Intent(applicationContext, Homepage::class.java)
+                    intent.putExtra("LoginUser", fuser)
                     startActivity(intent)
                 }
                 else
